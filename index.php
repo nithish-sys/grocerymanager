@@ -39,14 +39,12 @@ include 'connect.php';
                 $result = mysqli_query($con,$sql);
                 if($result){
                     while($row = mysqli_fetch_assoc($result)){
-                        $SerialNo = $row['SerialNo'];
                         $Name =  $row['Name'];
                         $quantity = $row['quantity'];
                         $pieces = $row['pieces'];
 
                         echo '
             <tr>
-                    <td>'.$SerialNo.'</td>
                     <td>'.$Name.'</td>
                     <td>'.$quantity.'</td>
                     <td>'.$pieces.'</td>
