@@ -27,11 +27,10 @@ include 'connect.php';
         <table class="table" id="groceryTable">
             <thead class="bg-dark text-light">
                 <tr>
-                    <th scope="col">SerialNo</th>
                     <th scope="col">Name</th>
                     <th scope="col">quantity(gms)</th>
                     <th scope="col">pieces</th>
-                    <th scope="col">operations</th>
+                    <th scope="col">actions</th>
                 </tr>
             </thead>
             <tbody>
